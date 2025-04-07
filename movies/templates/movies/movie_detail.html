@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ movie.name }}</title>
+</head>
+<body>
+  <h1>{{ movie.name }}</h1>
+  <img src="{{ movie.img_path }}" alt="{{ movie.name }}" width="200">
+  <p>{{ movie.description }}</p>
+  <p><strong>Duration:</strong> {{ movie.duration }} minutes</p>
+  <p><strong>Language:</strong> {{ movie.language }}</p>
+  <p><strong>Genres:</strong> {{ movie.genre.all|join:", " }}</p>
+  <p><strong>Rating:</strong> {{ movie.mpaa_rating }} | User: {{ movie.user_rating }}</p>
+  <a href="{% url 'movie_list' %}">Back to list</a>
+</body>
+</html>
