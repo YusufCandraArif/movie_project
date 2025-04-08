@@ -20,6 +20,9 @@ A simple Django-based Movie App that lists movie data with a detail view and a J
 - HTML + JS (Vanilla)
 - Docker (optional)
 
+https://github.com/user-attachments/assets/72172536-5681-49cc-9e06-0c59ff14a719
+
+
 ---
 
 ## 🔧 Manual Installation (Without Docker)
